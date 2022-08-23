@@ -1,0 +1,17 @@
+.containerTitulo{
+    background-color: rgb(241, 204, 155);
+}
+.foot{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex: column;
+}
+.foot ul{
+    list-style: none;
+}
+
+.tituloContacto{
+    background-color: rgb(241, 204, 155);
+    color: rgb(146, 146, 55);
+}

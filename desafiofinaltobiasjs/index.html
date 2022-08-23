@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metropizza Macarenna II </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+   <link rel="shortcut icon" href="./img/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <img class="navbar-brand" href="./index.html" height="32px" src="./img/Captura web_13-5-2022_183114_.jpeg">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-center align-items-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item px-5">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item px-5">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="containerTitulo">
+            <div class="text-center ">
+                <h1 class="pt-5 pb-2">Te presentamos nuestros productos!</h1>
+                <h5 class="pb-5">Para que disfrutes de lo mejor de Zona Oeste</h5>
+            </div>
+        </section>
+        <section>
+          <div class="container">
+            <div class="row" id="productos">
+
+            </div>
+        </div>
+        </section>
+        <section class="shopping-cart">
+          <div class="container">
+              <h1 class="text-center">CARRITO</h1>
+              <hr>
+              <div class="row">
+                  <div class="col-6">
+                      <div class="shopping-cart-header">
+                          <h6>Producto</h6>
+                      </div>
+                  </div>
+                  <div class="col-2">
+                      <div class="shopping-cart-header">
+                          <h6 class="text-truncate">Precio</h6>
+                      </div>
+                  </div>
+                  <div class="col-4">
+                      <div class="shopping-cart-header">
+                          <h6>Cantidad</h6>
+                      </div>
+                  </div>
+            </div>
+              <div class="shopping-cart-items containerCarritoItems"></div>
+              <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total</p>
+                        <p class="ml-4 mb-0 totalCarrito">0€</p>
+                        <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                            data-delay="2000">
+                            <div class="toast-header">
+                                <span>✅</span>
+                                <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="toast-body text-white">
+                                Se aumentó correctamente la cantidad
+                            </div>
+                        </div>
+                        <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                            data-target="#comprarModal">Comprar</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer class="pt-5">
+      <div class="foot  d-flex py-4 flex-columnn text-center align-items-center justify-content-between">
+          <ul class=" d-flex justify-text-evenly align-text-center ">
+            <li class="px-4">Copyright </li>
+            <li class= "px-4">Nuestra red</li>
+            <li class= "px-4">Contacto</li>
+            <li class= "px-4">Inicio</li>
+          </ul>
+        <img height="32px" src="./img/Captura web_13-5-2022_183114_.jpeg" alt="">
+      </div>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/sweetalert.js"></script>
+    <script src="./js/productos.js"></script>
+    <script src="./js/productos.json"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

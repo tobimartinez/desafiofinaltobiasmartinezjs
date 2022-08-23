@@ -1,0 +1,68 @@
+[
+    {
+        "nombre": "Pizza Muzzarella",
+        "id": 1,
+        "precio":1600,
+        "imagen": "../img/pizza1nuevo.jpg"
+    },
+    {
+        "nombre": "Pizza Fugazzetta",
+        "id": 2,
+        "precio":1700,
+        "imagen": "../img/pizza2.jpg"
+    },
+    {
+        "nombre": "Pizza Jamon y Morron",
+        "id": 3,
+        "precio":1600,
+        "imagen": "../img/pizza3.jpg"
+    },
+    {
+        "nombre": "Pizza Palmito",
+        "id": 4,
+        "precio":1400,
+        "imagen": "../img/pizza1nuevo.jpg"
+    },
+    {
+        "nombre": "Pizza Napolitana",
+        "id": 5,
+        "precio":1800,
+        "imagen": "../img/pizza2.jpg"
+    },
+    {
+        "nombre": "Pizza Americana ",
+        "id": 6,
+        "precio":2000,
+        "imagen": "../img/pizza3.jpg"
+    },
+    {
+        "nombre": "Pizza Macarenna",
+        "id": 7,
+        "precio":2100,
+        "imagen": "../img/pizza1nuevo.jpg"
+    },
+    {
+        "nombre": "Pizza a la crema ",
+        "id": 8,
+        "precio":1800,
+        "imagen": "../img/pizza2.jpg"
+    },
+    {
+        "nombre": "Pizza Anana",
+        "id": 9,
+        "precio":1500,
+        "imagen": "../img/pizza3.jpg"
+    },
+    {
+        "nombre": "Pizza Imperial",
+        "id": 10,
+        "precio":2300,
+        "imagen": "../img/pizza1nuevo.jpg"
+    },
+    {
+        "nombre": "Pizza Copacabana",
+        "id": 11,
+        "precio":2600,
+        "imagen": "../img/pizza2.jpg"
+    }
+]
